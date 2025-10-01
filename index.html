@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Playbook-P4-TM04</title>
+    <title>Playbook-P4-TM02</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -11,7 +11,7 @@
 <body>
 
     <header>
-        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 4 4to Primaria</strong></h1>
+        <h1><span class="book-icon">📋</span> <strong>Playbook Sesión 6 4to Primaria</strong></h1>
         <div class="header-widgets">
             <div class="timer-container">
                 <span id="timer">⏱️ 00:00</span>
@@ -70,23 +70,24 @@
                                 <td>
                                     <strong>Objetivos de Aprendizaje:</strong>
                                     <ul>
-                                        <li>Cutebot & tu plan (GCS): Sensor Ultrasónico (leer_distancia_ultrasonido_cm()), SI para evitar choques.</li>
-                                        <li>IA: Sensores alternativos a la visión.</li>
-                                        <li>Parte de la Currícula de IA cubierta: Alfabetización Adicional: Sensores alternativos.</li>
-                                        <li>Objetivo General de la Sesión: Que los estudiantes aprendan a utilizar el sensor ultrasónico del Cutebot para medir distancias y programen una lógica condicional (SI) para que el robot evite obstáculos, comprendiendo que los robots pueden usar sensores alternativos a la visión para percibir su entorno.</li>
+                                        <li>Cutebot & tu plan (GCS): Movimientos: retroceder, girar_izquierda/derecha, pausa. Secuencias de movimiento para una ruta simple.</li>
+                                        <li>IA (Conceptual): Planificación de rutas en robots.</li>
+                                        <li>Parte de la Currícula de IA (Primaria 4 - AIA y Adicionales) cubierta: Preparatorio IA: Planificación y secuenciación en robótica.</li>
+                                        <li>Objetivo General de la Sesión: Que los estudiantes aprendan a programar movimientos más variados del Cutebot (retroceder, girar) y a combinarlos en secuencias para que el robot siga una ruta simple, entendiendo conceptualmente cómo esto se relaciona con la planificación de movimiento en robots más avanzados y la IA.</li>
                                     </ul>
                                     <strong>Secuencia de Clase:</strong>
                                     <ul>
-                                        <li>⚡ Actividad 1: Saludo de I.A. con todos</li>
-                                        <li>⚡ Actividad 2: I Can Statement + Ejemplificación</li>
-                                        <li>⚡ Actividad 3: AI GYM</li>
-                                        <li>⚡ Actividad 4: Brain Spark</li>
-                                        <li>⚡ Actividad 5: Gnius STORM (Think-Pair-Share)</li>
+                                        <li>⚡ Actividad 1: Saludo de I.A. con todos (3 min)</li>
+                                        <li>⚡ Actividad 2: I Can Statement + Ejemplificación (5 min)</li>
+                                        <li>⚡ Actividad 3: AI GYM (7 min)</li>
+                                        <li>⚡ Actividad 4: Brain Spark (20 min)</li>
+                                        <li>⚡ Actividad 5: Gnius STORM (Think-Pair-Share) (5 min)</li>
                                     </ul>
                                     <strong>Entregable Clave:</strong>
                                     <ul>
-                                        <li>Programa en Micro:bit que utiliza el sensor ultrasónico del Cutebot para detectar un objeto y detenerse (o realizar otra acción) antes de chocar, utilizando tu plan (GCS) y lógica condicional SI.</li>
-                                        <li>Participación en la discusión sobre sensores alternativos y su uso en robots.</li>
+                                        <li>Programa en Micro:bit que controla el Cutebot para seguir una secuencia de movimientos (avanzar, girar, retroceder, pausar) para completar una ruta simple, creado a partir de tu plan (GCS) generado con la IA.</li>
+                                        <li>Participación en la discusión sobre planificación de rutas en robots.</li>
+                                        <li>(Opcional) Dibujo de la ruta simple diseñada por el alumno.</li>
                                     </ul>
                                 </td>
                                 <td>
@@ -99,7 +100,8 @@
                                         <li>Robots Cutebot (1 por cada 2 estudiantes).</li>
                                         <li>Micro:bits y baterías (1 por cada 2 estudiantes).</li>
                                         <li>Acceso a MakeCode (<a href="https://makecode.microbit.org/" target="_blank">https://makecode.microbit.org/</a>).</li>
-                                        <li>Objetos para usar como obstáculos (ej. libros, cajas pequeñas).</li>
+                                        <li>Papel y lápices/colores (opcional, para dibujar rutas).</li>
+                                        <li>Espacio despejado en mesas o suelo para probar las rutas de los Cutebots.</li>
                                     </ul>
                                     <strong>Preparación Previa para ESTA Sesión:</strong>
                                     <ol>
@@ -113,7 +115,7 @@
                                             </ul>
                                         </li>
                                         <li><strong>Familiarización:</strong> Revisar el flujo de la sesión, los diálogos sugeridos y los tiempos de cada actividad.</li>
-                                        <li><strong>Ejemplo Profesor:</strong> Tener listo y funcional tu proyecto de ejemplo (Cutebot avanzando y deteniéndose antes de chocar con un libro) para la demostración en la Actividad 2.</li>
+                                        <li><strong>Ejemplo Profesor:</strong> Tener listo y funcional el proyecto de ejemplo (Cutebot realizando una secuencia de al menos 4 movimientos diferentes) para la demostración en la Actividad 2.</li>
                                     </ol>
                                 </td>
                             </tr>
@@ -124,17 +126,17 @@
 
             <div class="activity-card" id="activity-1">
                 <h2>⚡ Actividad 1: Saludo de I.A. con todos ⏰ 3 minutos</h2>
-                <p>El chatbot da la bienvenida y genera entusiasmo por el nuevo "superpoder" del Cutebot.</p>
+                <p>El chatbot da la bienvenida y genera entusiasmo por la nueva aventura tecnológica.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 1: Saludo de I.A. con todos ⏰ 0.5 minutos</h3>
-                            <p>(Proyectar Diapositiva 2). Da la bienvenida a los alumnos con energía, introduce la idea de que Cutebot obtendrá un nuevo "sentido" y pídeles que activen a Xolo.</p>
+                            <p>(Proyectar Diapositiva 2). Da la bienvenida a los alumnos con energía, introduce brevemente la emoción de la misión del día sin revelar detalles, e instrúyeles claramente cómo activar a Xolo con sus gustos/intereses.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Hola, exploradores del futuro! ¿Sabían que algunos animales, como los murciélagos o los delfines, pueden 'ver' en la oscuridad o bajo el agua usando sonidos? ¡Hoy nuestro Cutebot va a obtener un superpoder similar! Vamos a enseñarle a 'sentir' los objetos que tiene delante sin necesidad de verlos con una cámara, ¡usando ondas de sonido! Antes de empezar, activen a Xolo. Salúdenlo en el chat con su nombre y sus gustos. Por ejemplo: 'Hola Xolo, soy [Nombre] y me gustan los animales y los superhéroes'."</p>
+                                <p class="dialogue assistant">"¡Hola, navegantes robóticos! En la clase pasada, nuestro Cutebot dio sus primeros pasos. Hoy, vamos a enseñarle a moverse con más estilo: ¡hacia atrás, y a girar! ¿Listos para ser los directores de movimiento de su Cutebot? Antes de empezar, vamos a activar a nuestro amigo Xolo. Por favor, salúdenlo en el chat y díganle su nombre y cuáles son sus gustos e intereses. Por ejemplo: 'Hola Xolo, soy [Nombre] y mis gustos son [jugar fútbol y los coches de carreras]'."</p>
                             </div>
                         </div>
                     </div>
@@ -146,7 +148,7 @@
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Excelente! Xolo está listo para ayudar a Cutebot a desarrollar su nuevo "sentido arácnido". Si alguien no ha recibido respuesta de Xolo, levante la mano.</p>
+                                <p class="dialogue assistant">¡Fantástico! Veo que Xolo ya les está respondiendo y está listo para dirigir el tráfico de robots. Si alguien no ha recibido respuesta de Xolo, levante la mano para ayudarle.</p>
                             </div>
                         </div>
                     </div>
@@ -155,41 +157,41 @@
 
             <div class="activity-card" id="activity-2">
                 <h2>⚡ Actividad 2: I Can Statement + Ejemplificación ⏰ 5 minutos</h2>
-                <p>Presentar el sensor ultrasónico, su funcionamiento y el objetivo de la clase.</p>
+                <p>Presentar el objetivo de la clase: programar secuencias de movimiento con Cutebot.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 1: Introducción y Contextualización ⏰ 2 minutos</h3>
-                            <p>(Proyectar Diapositiva 3). Introduce el sensor ultrasónico del Cutebot, señalándolo físicamente y explicando su funcionamiento con la analogía del eco.</p>
+                            <h3>Paso 1: Introducción y Contextualización ⏰ 1 minuto</h3>
+                            <p>(Proyectar Diapositiva 3). Introduce el concepto principal de la sesión, conectando con la sesión anterior y presentando la necesidad de más movimientos.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">(Señala el sensor ultrasónico del Cutebot, los "ojos" redondos) Este es el sensor ultrasónico de nuestro Cutebot. Funciona un poco como el eco: envía una onda de sonido que nosotros no oímos, y si choca con algo, el sonido rebota y el sensor mide cuánto tardó en volver. ¡Así sabe qué tan lejos está un objeto! Piénsenlo, es como cuando gritan en una cueva y escuchan su eco. Si el eco tarda mucho, la pared está lejos; si tarda poco, está cerca.</p>
+                                <p class="dialogue assistant">Ya vimos que el Cutebot puede avanzar. Pero los robots de verdad necesitan poder moverse en todas direcciones para hacer sus trabajos. Hoy aprenderemos los comandos de tu plan (GCS) para que el Cutebot retroceda y gire.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 2: Presentación del Proyecto del Profesor ⏰ 1 minuto</h3>
-                            <p>Muestra tu proyecto de ejemplo (Cutebot avanzando y deteniéndose antes de chocar con un libro) ya cargado y funcionando. Esta es una demostración en vivo.</p>
+                            <h3>Paso 2: Presentación del Proyecto del Profesor ⏰ 2 minutos</h3>
+                            <p>Muestra TU Cutebot con TU proyecto de ejemplo (una secuencia de al menos 4 movimientos diferentes) ya cargado y funcionando. Esta es una demostración en vivo, no se proyecta diapositiva.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Para que vean cómo funciona, miren este ejemplo. (Coloca un libro frente al Cutebot y haz que avance. El Cutebot se detiene antes de chocar). Mi Cutebot usó su sensor ultrasónico para 'sentir' el libro y detenerse. Mi 'idea' era que no chocara.</p>
+                                <p class="dialogue assistant">Para que vean una de las muchas cosas que podemos hacer hoy, les voy a mostrar un proyecto que yo mismo preparé. Miren mi Cutebot: (Muestra el Cutebot realizando la secuencia que preparaste, ej: avanzar, girar izquierda, avanzar, retroceder y detenerse). Yo le pedí que hiciera esta pequeña rutina de movimientos. ¿Ven cómo podemos combinar diferentes acciones para crear una secuencia? Mi 'idea' fue simple: quería que mi Cutebot hiciera una pequeña coreografía.</p>
                             </div>
                         </div>
                     </div>
                      <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 3: "I Can Statement" y Conexión ⏰ 2 minutos</h3>
-                            <p>(Proyectar Diapositiva 4). Presenta formalmente el 'I Can Statement'.</p>
+                            <p>(Proyectar Diapositiva 4). Presenta formalmente el 'I Can Statement' y conecta el ejemplo mostrado con lo que los alumnos crearán.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Hoy vamos a usar este sensor para que nuestro Cutebot no se choque. Al final de la clase, podrán decir: '<strong>Yo puedo programar mi Cutebot para que use su sensor de ultrasonido para detectar un objeto y detenerse antes de chocar, usando tu plan (GCS) y una condición SI</strong>.' ¡Vamos a darle superpoderes a Cutebot!</p>
+                                <p class="dialogue assistant">Así como mi Cutebot siguió una secuencia, ¡ustedes hoy harán algo muy similar! Al final de la clase, podrán decir con confianza: '<strong>Yo puedo programar mi Cutebot para que siga una pequeña secuencia de movimientos diferentes usando tu plan (GCS)</strong>.' ¡Vamos a ello!</p>
                             </div>
                         </div>
                     </div>
@@ -197,45 +199,48 @@
             </div>
 
             <div class="activity-card" id="activity-3">
-                <h2>⚡ Actividad 3: AI GYM ⏰ 5 minutos</h2>
-                <p>Introducir el comando GCS para el ultrasonido, las condiciones SI y el concepto de sensores alternativos.</p>
+                <h2>⚡ Actividad 3: AI GYM ⏰ 7 minutos</h2>
+                <p>Trabajo con chatbot de I.A. para introducir los nuevos comandos GCS y el concepto de planificación de rutas.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 1: Instrucción Inicial y Contextualización de la IA ⏰ 1 minuto</h3>
-                            <p>(Proyectar Diapositiva 5). Presenta el A.I. GYM y da la instrucción para que los alumnos pidan la información a Xolo.</p>
+                            <p>(Proyectar Diapositiva 5). Presenta el A.I. GYM y da una instrucción clara a los alumnos sobre cómo pedir la información a Xolo.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Genios, al A.I. GYM! 🧠💪 Xolo nos enseñará el comando de tu plan (GCS) para el 'súper oído' de Cutebot, cómo usar condiciones SI para tomar decisiones y por qué los robots usan 'sentidos' diferentes a la vista. Escriban en el chat: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero aprender sobre el sensor ultrasónico, las condiciones SI y los sensores alternativos'.</p>
+                                <p class="dialogue assistant">¡Genios, es momento de entrar al A.I. GYM! 🧠💪 Xolo, nuestro copiloto IA, nos va a enseñar los nuevos comandos para que Cutebot se mueva con más estilo y cómo los robots planean sus rutas. Para que la explicación sea personalizada, escriban en el chat: 'Mi perfil es [escribe aquí tus gustos/intereses] y quiero que me enseñes los nuevos comandos de movimiento de Cutebot y cómo planificar rutas'.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 2: Interacción Guiada y Ejemplo de Plan (GCS) ⏰ 4 minutos</h3>
-                            <p>(Proyectar Diapositivas 6 y 7). Monitorea a los alumnos. Xolo les explicará el comando `leer_distancia_ultrasonido_cm()`, cómo usar `SI...ENTONCES...` (ej. SI distancia < 10 ENTONCES detenerse), y que los robots pueden "ver" en la oscuridad con sensores como este, al igual que los coches que pitan al aparcar o las aspiradoras robot.</p>
+                            <h3>Paso 2: Interacción Guiada y Ejemplo de Plan (GCS) ⏰ 6 minutos</h3>
+                            <p>(Proyectar Diapositivas 6 y 7). Monitorea a los alumnos mientras interactúan con Xolo. Xolo les explicará los nuevos comandos (retroceder, girar, pausa) y el concepto de planificación de rutas, cómo los robots tienen un "plan" y un "mapa", y cómo la IA ayuda.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Genial! Xolo les está explicando el comando `leer_distancia_ultrasonido_cm()` que nos da la distancia en centímetros. También les enseña cómo usar una condición `SI` para que Cutebot decida qué hacer, por ejemplo: `SI la distancia es MENOR QUE 10 centímetros, ENTONCES detenerse`. Y muy importante, les cuenta que este sensor es un 'sentido' alternativo a la vista, ¡puede 'ver' en la oscuridad, como los sensores de los coches que pitan al aparcar!</p>
-                                <p class="dialogue assistant">Para que vean un ejemplo de plan (GCS) con el ultrasonido, Xolo podría mostrarles algo así:</p>
+                                <p class="dialogue assistant">(Mientras los alumnos interactúan con Xolo) ¡Excelente! Xolo les está explicando los nuevos comandos para que Cutebot se mueva hacia atrás y gire. También les está contando que, para ir de un lugar a otro, los robots necesitan un plan, ¡como un mapa! Y que la IA les ayuda a seguir ese plan.</p>
+                                <p class="dialogue assistant">Para que vean cómo se usan estos comandos en una secuencia, Xolo podría mostrarles un plan (GCS) de ejemplo como este para avanzar y girar:</p>
                                 <pre class="dialogue assistant" style="color: #d32f2f;">
 POR SIEMPRE:
-    fijar variable "distancia" a leer_distancia_ultrasonido_cm()
-    SI (variable "distancia" < 10) Y (variable "distancia" > 0):
-        cutebot_detener()
-    SINO:
-        cutebot_avanzar(30)
-    FIN SI
-    ESPERAR 0.1 segundos
+    // Avanzar
+    cutebot_avanzar(70)
+    ESPERAR 1.5 segundos
+    cutebot_detener()
+    cutebot_pausa(1 segundo)
+    // Girar
+    cutebot_girar_derecha(70)
+    ESPERAR 0.8 segundos
+    cutebot_detener()
+    cutebot_pausa(1 segundo)
                                 </pre>
-                                <p class="dialogue assistant">Si tienen dudas, ¡pregunten a Xolo! Por ejemplo: <br>
-                                <strong>* 'Xolo, ¿qué tan lejos puede "ver" el sensor ultrasónico?'</strong><br>
-                                <strong>* '¿Los murciélagos usan algo parecido al sensor ultrasónico?'</strong> (Relacionar con sus gustos) <br>
-                                <strong>* '¿Qué otros sensores alternativos usan los robots?'</strong></p>
+                                <p class="dialogue assistant">Asegúrense de contestar las preguntas que Xolo les haga, como por ejemplo: '¿Cómo creen que los robots de entrega saben a dónde ir?' Si algo no queda claro, ¡recuerden que pueden preguntarle directamente a Xolo! Prueben con: <br>
+                                <strong>* 'Xolo, ¿qué tan rápido puede girar el Cutebot?'</strong><br>
+                                <strong>* '¿Puedes darme un ejemplo de un robot que planea rutas relacionado con [sus gustos/intereses]?'</strong><br>
+                                <strong>* '¿Cómo decide la IA cuál es la mejor ruta?'</strong></p>
                             </div>
                         </div>
                     </div>
@@ -244,57 +249,68 @@ POR SIEMPRE:
 
             <div class="activity-card" id="activity-4">
                  <h2>⚡ Actividad 4: Brain Spark ⏰ 20 minutos</h2>
-                <p>Poner en práctica el uso del sensor ultrasónico y la lógica condicional.</p>
+                <p>Ideación de una ruta simple, traducción a tu plan (GCS) con el chatbot, implementación y prueba.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 1: Introducción al Brain Spark ⏰ 1 minutos</h3>
-                            <p>(Proyectar Diapositiva 8). Presenta la actividad como la fase creativa principal. Recuerda a los alumnos que trabajarán en parejas y compartirán el material.</p>
+                            <p>(Proyectar Diapositiva 8). Presenta la actividad como la fase creativa principal de la sesión, generando entusiasmo.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Tiempo, genios! Ahora al Brain Spark, donde programarán a Cutebot para que no choque, usando su nuevo superpoder ultrasónico. Recuerden que trabajarán en parejas, así que necesitarán compartir el Cutebot y el Micro:bit para programar y probar.</p>
+                                <p class="dialogue assistant">¡Tiempo, genios! Ahora vamos a la parte más emocionante de nuestra misión, el Brain Spark. Aquí es donde cada uno de ustedes se convierte en coreógrafo de robots, usando lo que aprendimos para diseñar una ruta y programar a Cutebot para que la siga.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
-                            <h3>Paso 2: Ideación (La "idea" del Comportamiento Anti-choque) ⏰ 3 minutos</h3>
-                            <p>Anima a los alumnos a pensar en una 'idea' individual de cómo quieren que su Cutebot evite chocar. Deberán organizarse con su compañero para turnarse al programar y probar sus respectivas ideas.</p>
+                            <h3>Paso 2: Ideación (La "idea" de la Ruta) ⏰ 3 minutos</h3>
+                            <p>Anima a los alumnos a pensar en una ruta simple para su Cutebot. Pueden dibujarla. Recuerda a las parejas que el Cutebot y el Micro:bit se comparten y deberán alternar para programar.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                 <p class="dialogue assistant">¿Cómo quieren que su Cutebot evite los obstáculos? Quizás: 'Quiero que mi Cutebot avance y si detecta algo a menos de 15 cm, se detenga.' O 'Si mi Cutebot ve un obstáculo muy cerca, quiero que retroceda un poco y luego se detenga.' ¡Incluso podrían encender una luz roja! Piensen en su 'idea' individual. Luego, hablen con su compañero para organizarse y decidir cómo se turnarán para usar el Cutebot y el Micro:bit para programar y probar cada una de sus ideas. Si necesitan inspiración, consulten a Xolo: 'Exploremos ideas juntos para que mi Cutebot no choque usando el ultrasonido'."</p>
+                                 <p class="dialogue assistant">Ahora que saben que Cutebot puede avanzar, retroceder y girar, ¿qué ruta simple se les ocurre? O tal vez, ¿quieren que su Cutebot haga un pequeño cuadrado o un triángulo? Tómense un momento para pensar en su 'idea' de ruta. Pueden dibujarla en un papel si les ayuda. Recuerden que trabajarán en parejas y compartirán un Cutebot y un Micro:bit, así que pónganse de acuerdo en la ruta o prepárense para turnarse. Si necesitan inspiración, pídanle a Xolo: 'Exploremos ideas juntos para una ruta simple para Cutebot'."</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 3: Planificación con IA (El "plan") y Logística ⏰ 4 minutos</h3>
-                            <p>(Proyectar Diapositiva 9). Guía a los alumnos sobre cómo comunicar su 'idea' a Xolo para obtener 'tu plan', definiendo el umbral de distancia. Asegúrate de que cada pareja tenga su Cutebot, Micro:bit y algún obstáculo.</p>
+                            <p>(Proyectar Diapositiva 9). Guía a los alumnos sobre cómo comunicar su 'idea' de ruta a Xolo para obtener 'tu plan'. Mientras los alumnos escriben y discuten sus ideas con Xolo, asegúrate de que cada pareja tenga su Cutebot y Micro:bit.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¿Ya tienen su 'idea' anti-choque? ¡Perfecto! Descríbansela a Xolo, y él les ayudará a definir la distancia a la que quieren que reaccione y a crear 'tu plan'. Por ejemplo, si su 'idea' es: 'Quiero que mi Cutebot avance y se detenga si hay un obstáculo a menos de 15 cm, encendiendo una luz roja.'</p>
-                                <p class="dialogue assistant">Xolo podría generar 'tu plan' así:</p>
+                                <p class="dialogue assistant">¿Ya tienen su 'idea' de ruta? ¡Genial! Ahora, descríbanla o muéstrenle su dibujo a Xolo para que les ayude a crear 'tu plan'. Por ejemplo, si su 'idea' es: 'Quiero que mi Cutebot avance, luego gire a la derecha, avance otro poco y se detenga.'</p>
+                                <p class="dialogue assistant">Basado en esa petición, Xolo podría generar 'tu plan' como este. ¡Fíjense bien en la secuencia de comandos! Xolo les recordará que los giros dependen del tiempo y la velocidad, y que necesitarán experimentar.</p>
                                 <pre class="dialogue assistant" style="color: #d32f2f;">
-POR SIEMPRE:
-    fijar variable "distancia_obstaculo" a leer_distancia_ultrasonido_cm()
+AL INICIO:
+    // Preparar el Cutebot
 
-    // mostrar numero variable "distancia_obstaculo" // Opcional para depurar
+POR SIEMPRE: // O solo AL INICIO para una ejecución
+    // 1. Avanzar un poco
+    cutebot_avanzar(50)
+    ESPERAR 2 segundos // Ajustar tiempo según la distancia deseada
+    cutebot_detener()
+    cutebot_pausa(0.5 segundos) // Pausa antes del siguiente movimiento
 
-    SI (variable "distancia_obstaculo" < 15) Y (variable "distancia_obstaculo" > 0):
-        cutebot_detener()
-        cutebot_todos_los_led(ROJO)
-    SINO:
-        cutebot_avanzar(40)
-        cutebot_todos_los_led(VERDE)
-    FIN SI
+    // 2. Girar a la derecha (90 grados aprox.)
+    cutebot_girar_derecha(60) // Ajustar velocidad y tiempo de espera para un giro de 90º
+    ESPERAR 1 segundo // Este tiempo depende de la velocidad de giro y la superficie
+    cutebot_detener() 
+    cutebot_pausa(0.5 segundos)
 
-    ESPERAR 0.1 segundos
+    // 3. Avanzar otro poco
+    cutebot_avanzar(50)
+    ESPERAR 2 segundos
+    cutebot_detener()
+    cutebot_pausa(0.5 segundos)
+
+    // 4. Detenerse definitivamente (o esperar para repetir si está en POR SIEMPRE)
+    cutebot_detener()
+    ESPERAR 5 segundos // Si está en POR SIEMPRE, para poder verlo antes de que repita
                                 </pre>
                             </div>
                         </div>
@@ -302,24 +318,24 @@ POR SIEMPRE:
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 4: Implementación, Prueba y Refinamiento ⏰ 11 minutos</h3>
-                            <p>Da tiempo a los alumnos para que traduzcan 'tu plan' a bloques, prestando atención a la estructura SI...ENTONCES...SINO. Colocan obstáculos para probar. Ajustan el umbral de distancia. Observan limitaciones del sensor.</p>
+                            <p>Da tiempo a los alumnos para que traduzcan 'tu plan' a bloques en MakeCode, prueben, ajusten velocidades y tiempos, y depuren con ayuda del chatbot si es necesario. Recordarles alternar el uso del Micro:bit y la computadora.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡A programar la evasión! Tomen 'tu plan' de Xolo y pásenlo a bloques en MakeCode. Pongan obstáculos (libros, cajas) para probar si su Cutebot se detiene a tiempo. ¿Se detiene muy pronto o muy tarde? Ajusten el número en la condición (ej. cambiar `< 15` a `< 10` o `< 20`). ¿Qué pasa si el objeto está a un lado? Observen bien. Si tienen una 'idea de mejora' como 'Quiero que mi Cutebot, además de detenerse, retroceda un poquito y luego gire para intentar esquivar', ¡díganle a Xolo para modificar 'tu plan'! Recuerden turnarse con su compañero.</p>
+                                <p class="dialogue assistant">¡Manos a la obra, ingenieros de rutas! Tomen 'tu plan' de Xolo y constrúyanlo en <strong>MakeCode</strong>, enfocándose en la secuencia correcta de los nuevos bloques de movimiento. Prueben en su Cutebot. ¿Giró lo suficiente? ¿Avanzó la distancia correcta? Con ayuda de Xolo si es necesario, ajusten los valores de velocidad en los comandos de giro o los tiempos en los ESPERAR para que el Cutebot complete la ruta deseada con mayor precisión. Si tienen una 'idea de mejora' como 'Quiero que mi giro sea más exacto' o 'Quiero que retroceda al final', ¡díganle a Xolo para modificar 'tu plan'! Recuerden turnarse con su compañero.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 5: Mejoras y Desafíos ⏰ 1 minutos</h3>
-                            <p>Ofrece desafíos adicionales.</p>
+                            <p>Ofrece desafíos adicionales para los alumnos que terminen antes.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¿Su Cutebot ya es un experto en no chocar? ¡Increíble! Para un desafío extra: ¿Pueden hacer que emita un sonido de alerta antes de detenerse? ¿O que sus luces parpadeen de forma diferente si el obstáculo está muy muy cerca vs. solo cerca? ¡Consulten con Xolo!</p>
+                                <p class="dialogue assistant">¿Su Cutebot ya es un experto navegante? ¡Felicidades! Para un desafío extra: ¿Pueden hacer que la ruta sea más larga o incluya más giros? ¿Quizás que parpadee sus luces al final de la ruta? ¡Consulten con Xolo cómo podrían modificar 'tu plan'!</p>
                             </div>
                         </div>
                     </div>
@@ -328,68 +344,68 @@ POR SIEMPRE:
 
             <div class="activity-card" id="activity-5">
                 <h2>⚡ Actividad 5: Gnius STORM ⏰ 5 minutos</h2>
-                <p>Los alumnos muestran cómo sus Cutebots evitan chocar y comparten aprendizajes.</p>
+                <p>Los alumnos muestran las rutas de sus Cutebots y comparten dificultades y aprendizajes.</p>
                 <div class="steps">
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 1: Gnius STORM (Think - Individual) ⏰ 0.5 minutos</h3>
-                            <p>(Proyectar Diapositiva 10). Presenta la actividad.</p>
+                            <p>(Proyectar Diapositiva 10). Presenta la actividad como el momento de compartir y celebrar los proyectos, explicando brevemente la dinámica.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Tiempo, ingenieros anti-colisiones! Han hecho un gran trabajo en el Brain Spark. Ahora, en nuestro Gnius STORM, vamos a ver cómo sus Cutebots usan su nuevo 'sentido'.</p>
+                                <p class="dialogue assistant">¡Tiempo, creadores de rutas! Han hecho un trabajo increíble en el Brain Spark. Ahora es el momento de mostrar las habilidades de navegación de sus Cutebots en nuestro Gnius STORM. ¿Listos para ver las coreografías robóticas?</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 2: Gnius STORM (Pair - Parejas) ⏰ 0.5 minutos</h3>
-                            <p>Reflexión individual.</p>
+                            <p>Da a los alumnos un momento corto para la reflexión individual sobre su propio proyecto.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Antes de mostrarlo, piensen 30 segundos: <strong>¿Cómo logra su Cutebot no chocar? ¿A qué distancia decidieron que se detuviera y por qué? ¿Qué fue lo más complicado de programar?</strong></p>
+                                <p class="dialogue assistant">Perfecto. Antes de mostrar su ruta, tómense 30 segundos para pensar: <strong>¿Qué ruta logró seguir su Cutebot? ¿Qué fue lo más difícil de programar para que siguiera su plan? ¿Qué aprendieron sobre ajustar los tiempos y velocidades?</strong></p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 3: Gnius STORM (Share - Retroalimentación) ⏰ 1.5 minutos</h3>
-                            <p>Indica a los alumnos que se junten en parejas, muestren cómo sus Cutebots evitan chocar y expliquen su lógica.</p>
+                            <p>Indica a los alumnos que se junten en parejas, muestren sus Cutebots siguiendo la ruta y expliquen su 'idea' y los desafíos.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Muy bien! Con su compañero, muestren cómo su Cutebot evita los obstáculos. Expliquen: <strong>'Mi Cutebot se detiene cuando el sensor detecta un objeto a [su distancia] cm. Lo programé así porque [su razón].'</strong> El compañero debe observar y probar con un obstáculo.</p>
+                                <p class="dialogue assistant">¡Muy bien! Ahora, con su compañero, cada uno va a mostrar la ruta de su Cutebot. Expliquen: <strong>'Mi Cutebot sigue esta ruta: [describe la secuencia]. Lo más difícil fue [comparte un desafío, ej: ajustar el giro a la derecha].'</strong> El compañero debe observar con atención.</p>
                             </div>
                         </div>
                     </div>
                     <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 4: Gnius STORM (Reflexión Final) ⏰ 1.5 minutos</h3>
-                            <p>Guía la retroalimentación.</p>
+                            <p>Guía a los alumnos para que se den retroalimentación mutua.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">Ahora, la retroalimentación. Después de ver al Cutebot de su compañero, díganle: <br>
-                                <strong>* 'Me gustó que tu Cutebot [acción específica que hizo bien].'</strong><br>
-                                <strong>* '¡Qué buena 'idea' que reaccione a [distancia específica]!'</strong><br>
-                                <strong>* 'Para la próxima, podrías intentar que también [sugiere una mejora, como girar o emitir un sonido]...'</strong></p>
+                                <p class="dialogue assistant">Ahora, la retroalimentación. Después de ver la ruta de su compañero, díganle algo positivo y alguna idea: <br>
+                                <strong>* 'Me gustó mucho cómo tu Cutebot [menciona un movimiento o parte de la secuencia].'</strong><br>
+                                <strong>* '¡Qué bien que lograste que girara así!'</strong><br>
+                                <strong>* 'Quizás la próxima vez podrías intentar que [sugiere una variación o nuevo movimiento]...'</strong></p>
                             </div>
                         </div>
                     </div>
                      <div class="step-card">
                         <div class="step-content">
                             <h3>Paso 5: Gnius STORM (Reflexión Final) ⏰ 1 minuto</h3>
-                            <p>(Proyectar Diapositiva 11). Cierra la sesión conectando con la robótica avanzada y la IA.</p>
+                            <p>(Proyectar Diapositiva 11). Cierra la sesión conectando la experiencia práctica con los objetivos y conceptos clave.</p>
                         </div>
                         <div class="collapsible">
                             <button type="button" class="collapsible-button">Diálogo Sugerido</button>
                             <div class="collapsible-content">
-                                <p class="dialogue assistant">¡Excelente trabajo! Han dotado a su Cutebot con un 'sentido' especial y la inteligencia para reaccionar a lo que 'siente'. Esto de usar sensores para percibir el entorno y tomar decisiones es fundamental en la robótica. Los coches autónomos, los drones y muchos robots industriales usan sensores como este, y otros más sofisticados como el radar o el LiDAR, para navegar de forma segura. La IA procesa toda esa información para que puedan moverse sin problemas por el mundo. Hoy lograron decir: '<strong>Yo puedo programar mi Cutebot para que use su sensor de ultrasonido para detectar un objeto y detenerse antes de chocar, usando tu plan (GCS) y una condición SI</strong>.' ¡Han creado robots más seguros e inteligentes!</p>
+                                <p class="dialogue assistant">¡Muy bien! Han programado secuencias de movimiento. Así es como los robots más complejos comienzan a navegar. Cuando una IA planifica una ruta para un coche autónomo, ¡está creando una secuencia de muchísimos pequeños movimientos como los que ustedes programaron hoy! ¡Son unos excelentes directores de movimiento!</p>
                             </div>
                         </div>
                     </div>
